@@ -76,7 +76,7 @@ namespace CGPA_Calculator
 
                 Console.WriteLine("----------------------------------------------------");
 
-                Console.WriteLine($"Your point for Coursecode {coursecode} is: {grade}");
+                Console.WriteLine($"Your Grade Point for Coursecode {coursecode} is: {grade}");
 
 
             }

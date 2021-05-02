@@ -20,6 +20,8 @@ namespace CGPA_Calculator
             bool appIsRunning = true;
             // always perform this when the user is in top menu
 
+
+
             while (appIsRunning)
             {
 
