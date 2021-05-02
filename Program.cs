@@ -97,16 +97,16 @@ namespace CGPA_Calculator
 
                     if (!appDb.getAllCourses().Any())
                     {
-                        Menu.PromptUser("You have not Registered any course in the DB, Hence you cannot perform CGPA Calculation.\n");
+                        Menu.PromptUser("You have not Registered any course in the DB, Hence you cannot perform GPA Calculation.\n");
 
                     }
                     else
                     {
                         double result = GPACalculate.gpaverage(appDb);
 
-                        Console.WriteLine("---------------------------------------------");
-                        Console.WriteLine($"Your GPA is: {Math.Round(result, 2)}");
-                        Console.WriteLine("---------------------------------------------");
+                        Console.WriteLine("---------------------------------------------------------------------------");
+                        Console.WriteLine($"Your Grade Point Average (GPA) is: {Math.Round(result, 2)}");
+                        Console.WriteLine("---------------------------------------------------------------------------");
 
 
                     }

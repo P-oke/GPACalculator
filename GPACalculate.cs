@@ -68,15 +68,17 @@ namespace CGPA_Calculator
             foreach (var eachcourse in course.getAllCourses())
             {
                 string coursecode = eachcourse.CourseCode;
+                double score = eachcourse.CourseScore;
+
                 unit = eachcourse.NumberOfUnits;
                 totalunit += unit;
 
                 double grade = getScoreGrade(eachcourse) * unit;
                 totalscores += grade;
 
-                Console.WriteLine("----------------------------------------------------");
+                Console.WriteLine("-----------------------------------------------------------------------------------------");
 
-                Console.WriteLine($"Your Grade Point for Coursecode {coursecode} is: {grade}");
+                Console.WriteLine($"Your Grade Point for Coursecode {coursecode} with Courseunit {unit} and Score {score} is: {grade}");
 
 
             }
