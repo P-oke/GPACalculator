@@ -1,0 +1,16 @@
+C:\Users\Hp\Desktop\CGPA_Calculator\bin\Debug\net5.0\CGPA_Calculator.exe
+C:\Users\Hp\Desktop\CGPA_Calculator\bin\Debug\net5.0\CGPA_Calculator.deps.json
+C:\Users\Hp\Desktop\CGPA_Calculator\bin\Debug\net5.0\CGPA_Calculator.runtimeconfig.json
+C:\Users\Hp\Desktop\CGPA_Calculator\bin\Debug\net5.0\CGPA_Calculator.runtimeconfig.dev.json
+C:\Users\Hp\Desktop\CGPA_Calculator\bin\Debug\net5.0\CGPA_Calculator.dll
+C:\Users\Hp\Desktop\CGPA_Calculator\bin\Debug\net5.0\ref\CGPA_Calculator.dll
+C:\Users\Hp\Desktop\CGPA_Calculator\bin\Debug\net5.0\CGPA_Calculator.pdb
+C:\Users\Hp\Desktop\CGPA_Calculator\obj\Debug\net5.0\CGPA_Calculator.csprojAssemblyReference.cache
+C:\Users\Hp\Desktop\CGPA_Calculator\obj\Debug\net5.0\CGPA_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\CGPA_Calculator\obj\Debug\net5.0\CGPA_Calculator.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\CGPA_Calculator\obj\Debug\net5.0\CGPA_Calculator.AssemblyInfo.cs
+C:\Users\Hp\Desktop\CGPA_Calculator\obj\Debug\net5.0\CGPA_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\CGPA_Calculator\obj\Debug\net5.0\CGPA_Calculator.dll
+C:\Users\Hp\Desktop\CGPA_Calculator\obj\Debug\net5.0\ref\CGPA_Calculator.dll
+C:\Users\Hp\Desktop\CGPA_Calculator\obj\Debug\net5.0\CGPA_Calculator.pdb
+C:\Users\Hp\Desktop\CGPA_Calculator\obj\Debug\net5.0\CGPA_Calculator.genruntimeconfig.cache
