@@ -86,8 +86,8 @@ namespace CGPA_Calculator
 
                 Console.WriteLine("-----------------------------------------------------------------------------");
 
-                Console.WriteLine($"Coursecode      |     Courseunit       |     Score        |        Grade         ");
-                Console.WriteLine($" {coursecode.ToUpper()}                        {unit}                  {score}                      {gradeType}     ");
+                Console.WriteLine($"Coursecode      |     Courseunit       |     Score        |        Grade      |   GradePoint ");
+                Console.WriteLine($" {coursecode.ToUpper()}                        {unit}                  {score}                    {gradeType}           {grade} ");
 
 
             }
