@@ -52,6 +52,5 @@ namespace CGPA_Calculator
 
         }
 
-
     }
 }

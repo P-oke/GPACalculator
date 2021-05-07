@@ -102,7 +102,7 @@ namespace CGPA_Calculator
                     }
                     else
                     {
-                        double result = GPACalculate.gpaverage(appDb);
+                        double result = GPACalculate.gpaverage(appDb.getAllCourses());
 
                         Console.WriteLine("---------------------------------------------------------------------------");
                         Console.WriteLine($"Your Grade Point Average (GPA) is: {Math.Round(result, 2)}");
@@ -111,18 +111,12 @@ namespace CGPA_Calculator
 
                     }
 
-
-
                     break;
 
 
 
                 }
                 menu.setCurrentStage(1);
-
-
-
-
 
             }
         }

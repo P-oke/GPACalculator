@@ -1,10 +1,18 @@
+using System.Collections.Generic;
 using System;
+
 
 
 namespace CGPA_Calculator
 {
+
     public class GPACalculate
     {
+        //    
+        Db mydb = Db.Initialize();
+
+
+
 
         public static void displayGradeinfo()
         {
@@ -58,10 +66,8 @@ namespace CGPA_Calculator
 
         }
 
-        public static double gpaverage(Db course)
+        public static double gpaverage(IEnumerable<Course> course)
         {
-            Grade gradetype = new Grade();
-
 
             double totalscores = 0;
             double gpaverage = 0;
@@ -69,7 +75,7 @@ namespace CGPA_Calculator
             int totalunit = 0;
 
 
-            foreach (var eachcourse in course.getAllCourses())
+            foreach (var eachcourse in course)
             {
 
                 string coursecode = eachcourse.CourseCode;
